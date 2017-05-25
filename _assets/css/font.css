@@ -1,0 +1,109 @@
+/*
+
+    6px     0.375em     37.5%       5pt
+    7px     0.438em     43.8%       5pt
+    8px     0.500em     50.0%       6pt
+    9px     0.563em     56.3%       7pt
+    10px    0.625em     62.5%       8pt
+    11px    0.688em     68.8%       8pt
+    12px    0.750em     75.0%       9pt
+    13px    0.813em     81.3%       10pt
+    14px    0.875em     87.5%       11pt
+    15px    0.938em     93.8%       11pt
+    16px    1.000em     100.0%      12pt
+
+
+* Use this sample for including other fonts.
+
+*/
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuRI";
+    src: url("../fonts/Ubuntu-RI.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "UbuntuB";
+    src: url("../fonts/Ubuntu-B.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuBI";
+    src: url("../fonts/Ubuntu-BI.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "UbuntuC";
+    src: url("../fonts/Ubuntu-C.ttf") format("truetype");
+} 
+
+@font-face {
+    font-family: "UbuntuL";
+    src: url("../fonts/Ubuntu-L.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuLI";
+    src: url("../fonts/Ubuntu-LI.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "UbuntuM";
+    src: url("../fonts/Ubuntu-M.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuMI";
+    src: url("../fonts/Ubuntu-MI.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "UbuntuMonoB";
+    src: url("../fonts/UbuntuMono-B.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuMonoBI";
+    src: url("../fonts/UbuntuMono-BI.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "UbuntuMonoR";
+    src: url("../fonts/UbuntuMono-R.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UbuntuMonoRI";
+    src: url("../fonts/UbuntuMono-RI.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.Ubuntu { font-family: "Ubuntu"; font-size: 1.500em; }

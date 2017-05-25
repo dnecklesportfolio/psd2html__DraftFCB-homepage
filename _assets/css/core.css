@@ -1,0 +1,10 @@
+@import "reset.css"; /* resets all inconsistent styling */
+@import "breakpoints/fluid.css";/* has the grid in it*/
+@import "style.css"; /* includes mobile */
+ 
+/*
+@import "breakpoints/mobile.css";
+@import "breakpoints/fluid.css";
+@import "structure.css";
+;*/
+

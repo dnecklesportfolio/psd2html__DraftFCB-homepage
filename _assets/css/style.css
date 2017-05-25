@@ -1,0 +1,413 @@
+
+
+/* ==============
+    Global (Erika)
+   ============== */
+   body { 
+    font: normal normal 1em/1em Ubuntu, sans-serif; 
+  }
+
+   .section-headline {
+    background: #ccc;
+    color: #333;
+    font: normal normal 4.250em/1em UbuntuB, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 9% 0;
+    margin-bottom: 65px;
+   }
+
+   .section-headline h2 {
+    padding: 0 54px;
+    background: #ccc;
+    z-index: 200;
+    position: relative;
+    display: inline-block;
+   }
+
+   .cross-line {
+    height: 1px;
+    background: #333;
+    z-index: 1;
+    position: relative;
+    top: -30px;
+    max-width: 1024px;
+    margin: 0 auto;
+   }
+/* ==============
+    HOME (Erika)
+   ============== */
+   #home h2 {
+    font: normal normal 2.250em/1em UbuntuB, sans-serif;
+    margin-bottom: 24px;
+    width: 88%;
+   }
+
+   #home p {
+    width: 96%;
+   }
+
+   #home img { 
+    width: 100%;
+    min-height: 130px;
+  }
+
+  #home .text {
+    font: normal normal 1em/1.4em Ubuntu, sans-serif;
+    background: rgba(232, 232, 232, 0.85);
+    color: #333;
+    width: 47%;
+    position: absolute;
+    left: 46%;
+    padding: 3.5%;
+    display: inline-block;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  #home .text * {
+      -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      transition: none;
+  }
+
+/* ==============
+    WORK (Erika)
+   ============== */
+
+   #work .block {
+    margin-bottom: 31%;
+   }
+
+   #work div.grid_4:nth-child(3n) {
+    margin-right: 0;
+   }
+
+   #work .block h2 {
+    font: normal normal 2.500em/1em UbuntuB, sans-serif;
+    color: #2c2c2c;
+    margin: 22px 0 8px 0;
+   }
+
+   #work .block h3 {
+    font: normal normal 1.375em/1em UbuntuM, sans-serif;
+    color: #999;
+
+   }
+
+   #work .block p {
+    font: normal normal 1em/1.7em Ubuntu, sans-serif;
+    color: #2c2c2c;
+    margin-top: 50px;
+   }
+
+   /* ==============
+    Our Awards (Erika)
+   ============== */
+   #awards .container_12 {
+    padding-bottom: 5%;
+   }
+
+   #awards .block {
+    margin-bottom: 70px;
+   }
+
+   #awards .grid_3 {
+    min-width: 140px;
+    margin-left: 4%;
+    margin-right: 0%;
+   }
+
+   #awards .block h2 {
+    font: normal normal 1.313em/1em UbuntuB, sans-serif;
+    color: #333;
+    margin: 18px 0 2px 0;
+   }
+
+   #awards .block h3 {
+      font: normal normal 0.750em/1.3em Ubuntu, sans-serif;
+      width: 120px;
+      color: #333;
+   }
+
+   #awards .block ul {
+    margin: 0.7em 0 4em 0;
+   }
+   
+   #awards .block ul li {
+    font: normal normal 0.750em/1.3em UbuntuB, sans-serif;
+    text-transform: uppercase;
+   }
+
+   #awards .block ul li em {
+    font: italic normal 0.9em/1em UbuntuRI, sans-serif;
+    text-transform: capitalize;
+   }
+
+   /* ==============
+    Locations (Erika)
+   ============== */
+   #locations {
+    margin-bottom: 12%;
+   }
+
+   #locations .grid_2 {
+    min-width: 144px;
+    margin-right: 4.2%;
+    padding-top: 8%;
+    margin: 0;
+    width: 19.667%;
+   }
+
+   #locations img {
+      position: relative;
+      top: -65px;
+      z-index: -1;
+      display: none;
+   }
+
+   #locations .container_12 {
+    padding-top: 10%;
+    background: url(../img/locations/world_map.png) no-repeat center 50px;
+    margin: 0% auto;
+    padding: 2% 0% 4% 2%;
+    min-height: 450px;
+   }
+
+   #locations h4 {
+    font: normal normal 1.125em/1.5em UbuntuB, sans-serif;
+    color: #333;
+   }
+
+   #locations ul {
+    margin-top: 7px;
+    -webkit-transition: max-height linear 1s;
+   }
+
+   #locations ul.double-list-block {
+    padding-bottom: 20px;
+   }
+
+   #locations ul li:before { 
+    content:"-"; 
+    position:relative; 
+    left:-5px;
+   }
+
+   #locations ul li {
+    font: normal normal 0.875em/1.3em Ubuntu, sans-serif;
+    color: #666;
+    text-indent: 6px;
+   }
+
+   #locations ul li:last-child{
+      padding-right: 0px;
+   } 
+
+   #locations .section-headline {
+     margin-bottom: 0px;
+   }
+
+   #locations .expanded {
+    max-height: 1000px;
+
+    -webkit-transition: max-height linear 0.3s;
+   }
+
+   /* ==============
+    News (Dwayne)
+   ============== */
+ 
+    #news .block h3 {
+    font: bold normal 1em/1.3em Ubuntu, sans-serif;
+    color: #333333; 
+  
+   }
+     #news .block {
+    border-bottom: 1px solid gray;
+    color: #333333; 
+    padding-bottom: 48px;
+    margin-top: 63px;
+  
+   }
+    #news .block p {
+    font: normal normal .75em/1.3em Ubuntu, sans-serif;
+    color: #666666; 
+    margin-top: 10px;
+  
+   }
+    #news .block h4 {
+    font: normal normal .85em/1.3em Ubuntu, sans-serif;
+    color: #666666; 
+    margin-top: 5px;
+    font-style: italic;
+   }
+ 
+
+   #news a {
+    font: normal bolder 1.2em/1.3em Ubuntu, sans-serif;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    width:391px;
+    height: 50px;
+    margin: 76px auto 76px auto;
+    padding: 10px;
+    color: #999999;
+    background-color:#e4e4e4;
+    text-align: center;
+   }
+
+  /* ==============
+    Career (Dwayne)
+   ============== */
+#careers .section-headline  {
+margin-bottom: 30px;
+
+ }
+
+#careers .block  {
+
+   margin-bottom: 50px;
+   margin-right: 47px;
+   min-width: 300px;
+
+ }
+
+ #careers ul { 
+    overflow: hidden;
+   margin: 0 auto;
+   width: 400px;
+   margin-top: -70px;
+   margin-bottom: 40px;
+   padding-left: 30px; /*  hack to get the menu to look centered*/
+   position: relative;
+   z-index: 1000;
+ }
+
+ #careers li { 
+    float: left;
+   background-color: white;
+    padding: 10px;
+    font: bold normal 1em/1.3em Ubuntu, sans-serif;
+    color: #999999;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ #careers li:hover {
+  cursor: pointer;
+}
+
+ #careers p { 
+    color:#666666;
+    font: normal normal .8em/1.3em Ubuntu, sans-serif;
+ }
+
+
+#careers .selected {
+background-color: #b7b7b7; 
+color: #ffffff;
+}
+
+#careers #eeo {
+  display: none;
+}
+
+   /* ==============
+    Contact (Dwayne)
+   ============== */
+ #contact p {
+    font: normal normal .750em/1.3em Ubuntu, sans-serif;
+   
+    margin-bottom: 29px;
+   }
+  .alignR {
+
+    text-align: right;
+    max-width: 413px;
+  }
+  .alignL  {
+
+    text-align: left;
+    max-width: 413px;
+  }
+
+   #contact a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #contact .container_12 {
+    margin-top: -130px;
+  }
+  #contact {
+
+    background: #cccccc;
+  padding-bottom: 40px
+
+  }
+  
+  #contact ul {
+      height: 73px;
+      width: 791px;
+      margin: 0 auto;
+
+
+  }
+  
+  #contact li  {
+     float: left;
+     width: 73px;
+     height: 73px;
+    margin-left:21px;
+     background-image: url("../../_assets/img/contact/contact_sprite.png");
+    background-repeat: no-repeat;
+    background-size: 800px 73px; 
+  }
+
+  #contact .twitter {
+    background-position: 0 0;
+  }
+
+  #contact .facebook {
+    background-position: -104px 0;
+  }
+  #contact .pinterest {
+    background-position: -207px 0;
+  }
+
+  #contact .social_icon_1 {
+    background-position: -311px 0;
+  }
+  
+  #contact .social_icon_2 {
+    background-position: -415px 0;
+  }
+
+  #contact .instagram {
+    background-position: -519px 0;
+  }
+  
+  #contact .linkedin {
+    background-position: -622px 0;
+  }
+  #contact .youtube {
+    background-position: -727px 0;
+  }
+
+
+/* ==============
+    Footer (Dwayne)
+   ============== */
+
+   #footer p {
+  font: normal normal .825em/1.3em Ubuntu, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  background-color: #b4b4b4;  
+
+   }

@@ -1,0 +1,162 @@
+/*
+	PX to EM Conversion Reference
+
+	10px		0.625em		62.5%
+	11px		0.688em		68.8%
+	12px		0.750em		75.0%
+	14px		0.875em		87.5%
+	16px		1.000em		100.0%
+	18px		1.125em		112.5%
+	20px		1.250em		125.0%
+	24px		1.500em		150.0%
+*/
+
+
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+	BASE
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */ 
+
+
+body { font: normal normal 1em/1em Ubuntu, sans-serif; }
+
+
+/*
+    HEADER
+*/
+
+header { }
+header .masthead { }
+
+header .masthead .header-links { background: #333; margin-bottom: 15px; }
+header .masthead .header-links ul { }
+header .masthead .header-links ul li { display: inline-block; border-right: 1px solid #666; }
+header .masthead .header-links ul li a { color: #ccc; font-size: 0.750em; line-height: 12px; text-decoration: none; font-weight: bold; padding: 5px 10px; display: block; }
+header .masthead .header-links ul li a:hover { background: #444; color: #fff; }
+
+header .masthead .header-search { text-align: right; }
+header .masthead .header-search input[type=text] { font-size: 14px; padding: 3px 5px; width: 150px;}
+header .masthead .header-search input[type=submit] { background: #666; border: none; border-radius: 3px; color: #fff; font-size: 14px; font-weight: bold; padding: 5px 10px; }
+
+header #logo-container { }
+header #logo-container img { background: url(../img/sprite.png); width: 260px; height: 33px; }
+
+header nav { border-bottom: 5px solid #333; margin-top: 15px;  }
+header nav ul { }
+header nav > ul > li { float: left; border-right: 1px solid #666; }
+header nav > ul > li > a { display: block; background: #999; color: #fff; font-size: 0.875em; font-weight: bold; text-decoration: none; padding: 10px 15px 7px 15px;; }
+header nav > ul > li:hover {  }
+header nav > ul > li:hover > a { color: #fff; background: #666; }
+header nav > ul > li.on > a { background: #333; color: #fff; }
+header nav ul ul { display: none; position: absolute; background: #666; width: 150px; }
+header nav ul li:hover ul { display: block; }
+header nav ul li ul li { border-bottom: 1px dotted #ccc; }
+header nav ul li ul li a { color: #ccc; display: block; padding: 5px 10px; font-size: 0.750em; text-decoration: none; font-weight: bold; }
+header nav ul li ul li:hover { background: #555; }
+header nav ul li ul li:hover a { color: #fff; }
+
+
+/*
+		GLOBAL
+*/
+
+.button { font-size: 0.875em; display: inline-block; background: #ccc; color: #333; border-radius: 5px; padding: 10px 20px;text-decoration: none; }
+.button:hover { background: #999; color: #000; }
+
+.button.dark { background: #333; color: #ccc; }
+.button.dark:hover { background: #000; color: #fff; }
+
+.hide { display: none; }
+.left { float: left; }
+.right { float: right; }
+
+.main p { font-size: 0.750em; line-height: 1.5em; margin: 10px 0; }
+h1 { font-size: 2em; line-height: 1em; margin-bottom: 15px; }
+h2 { font-size: 1.125em; line-height: 1.125em; }
+
+aside menu { }
+aside menu ul { }
+aside menu ul li { border-bottom: 1px solid #ccc; }
+aside menu ul li a { text-decoration: none; font-weight: bold; font-size: 0.875em; padding: 5px; display: block; } 
+aside menu ul li a:hover { background: #eee; }
+
+/*
+		ISI
+*/
+#isi { margin-top: 20px;  }
+#isi .isi-wrap { line-height:16px; }
+#isi h3 { font-size: 1.5em; }
+#isi p { margin: 10px 0; line-height: 1.5em; }
+
+
+/*
+		FOOTER
+*/
+
+.footer-wrap { margin-bottom: 30px; font-size: 0.688em; }
+.footer-wrap .hr { border-top: 1px solid #ccc; margin-bottom: 10px; }
+.footer-wrap .legal-links { text-align: right; }
+
+
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+	TEMPLATES
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */ 
+
+
+/*
+		HOME
+*/
+
+.billboard { background: #eee; height: 400px; margin-bottom: 15px; }
+.billboard .message { padding-top: 20px; }
+.billboard .message h1 { font-size: 2.25em; line-height: 1em; margin: 15px 0; }
+.billboard .message p { margin: 15px 0; font-size: 0.875em; }
+
+.blocks { }
+.blocks .block { margin-bottom: 15px; }
+
+.blocks .block h3 { font-size: 1.125em; border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-bottom: 10px; }
+.blocks .block p { font-size: 0.750em; margin-bottom: 10px; }
+
+
+/*
+		Column 2
+*/
+
+.page-column_2 .main { padding: 25px 0; }
+.page-column_2 .content-image { border: 1px solid #ccc; padding: 3px; margin: 0 20px 20px 20px; }
+.page-column_2 .content-image.right { margin-right: 0; }
+.page-column_2 .content-image.left { margin-left: 0; }
+
+.page-column_2 .page-menu-options { border-bottom: 1px solid #ccc; padding-bottom: 10px; font-size: 0.688em; margin-bottom: 15px; }
+
+.page-column_2 .breadcrumbs { color: #999; }
+.page-column_2 .breadcrumbs a { color: #333; text-decoration: none; }
+.page-column_2 .breadcrumbs .current-page { color: #333; font-weight: bold; }
+.page-column_2 .breadcrumbs a:hover { color: #000; text-decoration: underline; }
+
+.page-column_2 .page-tools { text-align: right; font-weight: bold; }
+.page-column_2 .page-tools a { text-decoration: none; margin: 0 5px; }
+.page-column_2 .page-tools a:hover { text-decoration: underline; }
+
+
+/*
+		Column 3
+*/
+
+.callout { margin-bottom: 20px; background: #eee; }
+.callout h3 { background: #ccc; padding: 10px; }
+.callout .callout-content { padding: 0 10px 5px 10px; }
+
+
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+	PLUGINS
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */ 
+
+
+/* TEXT SIZE */
+.text-size { text-align: right; font-size: 12px; line-height: 12px; font-weight: bold; }
+.text-size a { color: #fff; text-decoration: none; padding: 5px 2px; display: inline-block; }
+.text-size a:hover { color: #ccc; }
